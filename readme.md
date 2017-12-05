@@ -14,7 +14,7 @@ by frostwing98@github.com
 这个本来是我的一个作业，现在发现挺有用的。
 
 
- \forall node \in BinaryTree,node.left<node<node.right
+ $$\forall node \in BinaryTree,node.left<node<node.right$$
 
 <img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
 
