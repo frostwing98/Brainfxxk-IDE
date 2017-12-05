@@ -10,6 +10,10 @@ by frostwing98@github.com
 
 这个本来是我的一个作业，现在发现挺有用的。
 
+
+<img src="http://www.forkosh.com/mathtex.cgi? \forall node \in BinaryTree,node.left<node<node.right">
+
+
 原来最初的版本是分布式的，有一个server和一个客户端，使用rmi部署，后来太麻烦，于是就去掉了注册的功能，就把这个仓促的整合了一下就上了，有什么bug欢迎发issues，我会进行修改。
 
 目前比较稳定的功能是执行代码，之后会把代码按照工程化的标准重构。
