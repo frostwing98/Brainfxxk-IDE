@@ -13,6 +13,8 @@ by frostwing98@github.com
 
 <img src="http://www.forkosh.com/mathtex.cgi? \forall node \in BinaryTree,node.left<node<node.right">
 
+<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
+
 
 原来最初的版本是分布式的，有一个server和一个客户端，使用rmi部署，后来太麻烦，于是就去掉了注册的功能，就把这个仓促的整合了一下就上了，有什么bug欢迎发issues，我会进行修改。
 
