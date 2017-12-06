@@ -20,8 +20,7 @@ graph TD;
     A-->C;
     B-->D;
     C-->D;
-
-\```
+```
 
 $$ \forall node \in BinaryTree,node.left<node<node.right$$
 
