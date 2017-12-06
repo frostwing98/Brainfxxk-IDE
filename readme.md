@@ -14,11 +14,15 @@ by frostwing98@github.com
 这个本来是我的一个作业，现在发现挺有用的。
 
 ```mermaid
-graph LR;  
-　　A-->B;    
-　　A-->C;  
-　　B-->D;  
-　　C-->D;  
+graph LR;
+A[aa bb]-->B(wo);
+A-->C((我是C));
+B-->D>我是D];
+C-->D;
+D-->E{我是E};
+C-->E;
+2-->E;
+_-->E;  
 ```
 
 $$ \forall node \in BinaryTree,node.left<node<node.right$$
