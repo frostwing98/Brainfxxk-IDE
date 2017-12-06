@@ -13,7 +13,7 @@ by frostwing98@github.com
 
 这个本来是我的一个作业，现在发现挺有用的。
 
-```flow
+```mermaid
 graph TD
     client1-->|read / write|SVN((SVN server))
     client2-->|read only|SVN
