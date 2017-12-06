@@ -14,21 +14,7 @@ by frostwing98@github.com
 这个本来是我的一个作业，现在发现挺有用的。
 
 
-```mermaid
-sequenceDiagram
-A->>B:Querry
-    
-```
 
-```mermaid
-
-graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
-    
-```
 
 $$ \forall node \in BinaryTree,node.left<node<node.right$$
 
