@@ -15,12 +15,9 @@ by frostwing98@github.com
 
 ```mermaid
 graph TD
-    client1-->|read / write|SVN((SVN server))
-    client2-->|read only|SVN
-    client3-->|read / write|SVN
-    client4-->|read only|SVN
-    client5(...)-->SVN
-    SVN---|store the data|sharedrive
+	1->>2((2))
+	1->>3((3))
+    
 ```
 
 $$ \forall node \in BinaryTree,node.left<node<node.right$$
