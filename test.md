@@ -53,7 +53,7 @@ $$f(x,y,z)=\begin{pmatrix}x^\`&y^\`&z^\`\end{pmatrix}\begin{pmatrix}8&0&0\\\0&2&
 
 我们可以用矩阵表示这种变换：
 
-$$f(x,y,z)= \begin{pmatrix}x^\`&y^\`&z^\` \end{pmatrix}P^T \begin{pmatrix}1&-1&4\\\ -1&1&4\\\4&4&4 \end{pmatrix}P \begin{pmatrix}x^\`\\\  y^\`\\\ z^\` \end{pmatrix},其中P= \begin{pmatrix}\frac{1}{\sqrt6}&\frac{1}{\sqrt2}&\frac{1}{\sqrt3}\\\ \frac{1}{\sqrt6}&-\frac{1}{\sqrt2}&\frac{1}{\sqrt3}\\\frac{2}{\sqrt6}&0&-\frac{1}{\sqrt3} \end{pmatrix}, \begin{pmatrix}x\\ y\\z \end{pmatrix}=P \begin{pmatrix}x^\`\\\ y^\`\\\z^\` \end{pmatrix}$$
+$$f(x,y,z)= \begin{pmatrix}x^\`&y^\`&z^\` \end{pmatrix}P^T \begin{pmatrix}1&-1&4\\\ -1&1&4\\\4&4&4 \end{pmatrix}P \begin{pmatrix}x^\`\\\  y^\`\\\ z^\` \end{pmatrix},其中P= \begin{pmatrix}\frac{1}{\sqrt6}&\frac{1}{\sqrt2}&\frac{1}{\sqrt3}\\\ \frac{1}{\sqrt6}&-\frac{1}{\sqrt2}&\frac{1}{\sqrt3}\\\frac{2}{\sqrt6}&0&-\frac{1}{\sqrt3} \end{pmatrix}, \begin{pmatrix}x\\ y\\z \end{pmatrix}=P \begin{pmatrix}x^\`\\\ y^\`\\\ z^\` \end{pmatrix}$$
 
 2.同一个二次型可以有不同的标准型变换，比如上式的P也可以用$Q=\begin{pmatrix}1&-3&-7\\\0&1&1\\\0&1&2\end{pmatrix}$进行变换，
 
