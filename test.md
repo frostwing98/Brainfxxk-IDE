@@ -45,7 +45,7 @@ $$ \begin{equation} \begin{cases} x= \frac{1}{\sqrt6} x^\`+ \frac{1}{\sqrt2}y^\`
 
 有：
 
-$$f(x,y,z)=\begin{pmatrix}x^`&y^`&z^`\end{pmatrix}\begin{pmatrix}8&0&0\\0&2&0\\0&0&-4\end{pmatrix}\begin{pmatrix}x^`\\y^`\\z^`\end{pmatrix},即f(x^{'},y^{'},z^{'})=8x^{'2}+2y^{'2}-4z^{'2}$$
+$$f(x,y,z)=\begin{pmatrix}x^\`&y^\`&z^\`\end{pmatrix}\begin{pmatrix}8&0&0\\\0&2&0\\\0&0&-4\end{pmatrix}\begin{pmatrix}x^\`\\\y^\`\\\z^\`\end{pmatrix},即f(x^{'},y^{'},z^{'})=8x^{'2}+2y^{'2}-4z^{'2}$$
 
 
 
