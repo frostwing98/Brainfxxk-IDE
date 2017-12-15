@@ -32,16 +32,12 @@ $$f(x_1,x_2,...,x_n)=x^TAx$$
 中的对称矩阵A为二次型f的矩阵，A的秩称为二次型f的秩。
 
 
-<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
-
-
 #### 5.1.2 二次型的标准型
 
 1.对二次型
 
-$ f(x,y,z)=x^2-2xy+8xz+y^2+8yz+4z^2= \begin{pmatrix} x & y & z \end{pmatrix} \begin{pmatrix} 1 & -1 & 4 \\ -1 & 1 & 4 \\ 4 & 4 & 4  \end{pmatrix} \begin{pmatrix} x \\ y \\ z \end{pmatrix} $
+$ f(x,y,z)=x^2-2xy+8xz+y^2+8yz+4z^2= \begin{pmatrix} x & y & z \end{pmatrix} \begin{pmatrix} 1 & -1 & 4 \\\ -1 & 1 & 4 \\\ 4 & 4 & 4  \end{pmatrix} \begin{pmatrix} x \\\ y \\\ z \end{pmatrix} $
 
-$$ \begin{pmatrix} 1 & 2 \\ 3 & 4 \\ \end{pmatrix} $$
 
 作变换
 
