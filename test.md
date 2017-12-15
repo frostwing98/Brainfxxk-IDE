@@ -55,7 +55,7 @@ $$f(x,y,z)=\begin{pmatrix}x^\`&y^\`&z^\`\end{pmatrix}\begin{pmatrix}8&0&0\\\0&2&
 
 $$f(x,y,z)= \begin{pmatrix}x^\`&y^\`&z^\` \end{pmatrix}P^T \begin{pmatrix}1&-1&4\\\ -1&1&4\\\4&4&4 \end{pmatrix}P \begin{pmatrix}x^\`\\\  y^\`\\\ z^\` \end{pmatrix},其中P= \begin{pmatrix}\frac{1}{\sqrt6}&\frac{1}{\sqrt2}&\frac{1}{\sqrt3}\\\ \frac{1}{\sqrt6}&-\frac{1}{\sqrt2}&\frac{1}{\sqrt3}\\\frac{2}{\sqrt6}&0&-\frac{1}{\sqrt3} \end{pmatrix}, \begin{pmatrix}x\\ y\\ z \end{pmatrix}=P \begin{pmatrix}x^\`\\\ y^\`\\\ z^\` \end{pmatrix}$$
 
-2.同一个二次型可以有不同的标准型变换，比如上式的P也可以用$Q=\begin{pmatrix}1&-3&-7\\\0&1&1\\\0&1&2\end{pmatrix}$进行变换，
+2.同一个二次型可以有不同的标准型变换，比如上式的P也可以用$Q=\begin{pmatrix}1&-3&-7\\\ 0&1&1\\\ 0&1&2\end{pmatrix}$进行变换，
 
 从而可以简化为一个新的标准型：$h(x^{''},y^{''},z^{''})=x^{''2}+4y^{''2}-16z^{''2}$
 
@@ -67,7 +67,7 @@ $$f(x,y,z)= \begin{pmatrix}x^\`&y^\`&z^\` \end{pmatrix}P^T \begin{pmatrix}1&-1&4
 
 称如下变换为由$x_1,x_2...,x_n$到$y_1,y_2,...,y_n$的一个线性变换。
 
-$\begin{pmatrix}x_1\\\x_2\\\...\\\x_n\end{pmatrix}=\begin{pmatrix}c_{11}&c_{12}...&...c_{nn}\\\c_{21}&c_{22}...&...c_{2n}\\\...&......&......\\\c_{n1}&c_{n2}...&...c_{nn}\end{pmatrix}\begin{pmatrix}y_1\\\y_2\\\...\\\y_n\end{pmatrix}$
+$\begin{pmatrix}x_1\\\ x_2\\\ ...\\\ x_n\end{pmatrix}=\begin{pmatrix}c_{11}&c_{12}...&...c_{nn}\\\ c_{21}&c_{22}...&...c_{2n}\\\ ...&......&......\\\ c_{n1}&c_{n2}...&...c_{nn}\end{pmatrix}\begin{pmatrix}y_1\\\ y_2\\\ ...\\\ y_n\end{pmatrix}$
 
 若线性变换的系数行列式，$\vert P\vert \neq0$那么这就是非退化线性变换～
 
