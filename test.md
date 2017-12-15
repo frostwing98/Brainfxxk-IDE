@@ -41,7 +41,7 @@ $ f(x,y,z)=x^2-2xy+8xz+y^2+8yz+4z^2= \begin{pmatrix} x & y & z \end{pmatrix} \be
 
 作变换
 
-$$\begin{equation}\begin{cases}x=\frac{1}{\sqrt6}x^`+\frac{1}{\sqrt2}y^`+\frac{1}{\sqrt3}z^`,\\y=\frac{1}{\sqrt6}x^`-\frac{1}{\sqrt2}y^`+\frac{1}{\sqrt3}z^`,\\z=\frac{2}{\sqrt6}x^`-\frac{1}{\sqrt3}z^`,\end{cases}\end{equation}$$
+$$ \begin{equation} \begin{cases} x= \frac{1}{\sqrt6} x^\`+ \frac{1}{\sqrt2}y^\`+\frac{1}{\sqrt3}z^\`,\\\y=\frac{1}{\sqrt6}x^\`- \frac{1}{\sqrt2}y^\`+\frac{1}{\sqrt3}z^\`,\\\z=\frac{2}{\sqrt6}x^\`-\frac{1}{\sqrt3}z^\`,\end{cases} \end{equation}$$
 
 有：
 
