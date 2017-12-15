@@ -3,7 +3,10 @@
 
 by frostwing98@github.com
 
-欢迎report bug，或者加入开发
+欢迎report bug
+
+![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
+
 
 ---
 
