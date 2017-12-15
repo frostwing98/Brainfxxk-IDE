@@ -116,11 +116,11 @@ $\begin{pmatrix}x_1\\\ x_2\\\ ...\\\ x_n\end{pmatrix}=\begin{pmatrix}c_{11}&c_{1
 >
 > 1.化出实二次型的矩阵
 >
-> $$f(x)=x^TAx,A=\begin{pmatrix}0&1&1\\\1&0&1\\\1&-1&0\end{pmatrix}$$
+> $$f(x)=x^TAx,A=\begin{pmatrix}0&1&1\\\ 1&0&1\\\ 1&-1&0\end{pmatrix}$$
 >
 > 2.求A的特征值：
 >
-> $$\vert \lambda E-A \vert=\left|\begin{array}\lambda-1&1&-4\\\1&\lambda-1&-4\\\-4&-4&\lambda+4\end{array}\right|=(\lambda-2)(\lambda-4)(\lambda+8)=0$$
+> $$\vert \lambda E-A \vert=\left|\begin{array}\lambda-1&1&-4\\\ 1&\lambda-1&-4\\\ -4&-4&\lambda+4\end{array}\right|=(\lambda-2)(\lambda-4)(\lambda+8)=0$$
 >
 > 得特征值为$\lambda=1(二重),-2$.
 >
@@ -132,7 +132,7 @@ $\begin{pmatrix}x_1\\\ x_2\\\ ...\\\ x_n\end{pmatrix}=\begin{pmatrix}c_{11}&c_{1
 >
 > 4.组合特征向量为新矩阵，对应对角矩阵的对应位置是对应的特征向量：
 >
-> $P=(\eta_1,\eta_2,\eta_3)=\begin{pmatrix}\frac{1}{\sqrt2}&\frac{1}{\sqrt6}&\frac{1}{\sqrt3}\\\frac{1}{\sqrt2}&-\frac{1}{\sqrt6}&\frac{1}{\sqrt3}\\\0&\frac{2}{\sqrt6}&\frac{1}{\sqrt3}\end{pmatrix}$
+> $P=(\eta_1,\eta_2,\eta_3)=\begin{pmatrix}\frac{1}{\sqrt2}&\frac{1}{\sqrt6}&\frac{1}{\sqrt3}\\\ \frac{1}{\sqrt2}&-\frac{1}{\sqrt6}&\frac{1}{\sqrt3}\\\ 0&\frac{2}{\sqrt6}&\frac{1}{\sqrt3}\end{pmatrix}$
 >
 > 有$P^TP=E,P^TAP=diag(1,1,-2)$
 >
@@ -144,13 +144,13 @@ $\begin{pmatrix}x_1\\\ x_2\\\ ...\\\ x_n\end{pmatrix}=\begin{pmatrix}c_{11}&c_{1
 
 就是把式子配成全平方项，如：
 
-$f(x_1,x_2,x_3)=x_1^2-2x_1x_2+8x_1x_3+x_2^2+8x_2x_3-4x_3^2\\\=(x_1-x_2+4x_3)^2+16x_2x_3-20x_3^2\\\=(x_1-x_2+4x_3)^2-20(x_3-0.4x_2)^2+3.2x_2^2$
+$f(x_1,x_2,x_3)=x_1^2-2x_1x_2+8x_1x_3+x_2^2+8x_2x_3-4x_3^2\\\ =(x_1-x_2+4x_3)^2+16x_2x_3-20x_3^2\\\ =(x_1-x_2+4x_3)^2-20(x_3-0.4x_2)^2+3.2x_2^2$
 
 **0x03合同变换法**
 
-原理：对$B=\begin{pmatrix}A\\E\end{pmatrix}$进行初等列变换，从而变成$\begin{pmatrix}\Lambda\\P\end{pmatrix}=\begin{pmatrix}P^T& \\\ &E\end{pmatrix}\begin{pmatrix}A\\\E\end{pmatrix}P=\begin{pmatrix}P^TAP\\\P\end{pmatrix}$
+原理：对$B=\begin{pmatrix}A\\\ E\end{pmatrix}$进行初等列变换，从而变成$\begin{pmatrix}\Lambda\\\ P\end{pmatrix}=\begin{pmatrix}P^T& \\\   &E\end{pmatrix}\begin{pmatrix}A\\\ E\end{pmatrix}P=\begin{pmatrix}P^TAP\\\ P\end{pmatrix}$
 
-也就是用之前化矩阵的方式把$\begin{pmatrix}A\\\E\end{pmatrix}$变成$\begin{pmatrix}\Lambda\\\P\end{pmatrix}$
+也就是用之前化矩阵的方式把$\begin{pmatrix}A\\\ E\end{pmatrix}$变成$\begin{pmatrix}\Lambda\\\ P\end{pmatrix}$
 
 比如：
 
@@ -158,13 +158,13 @@ $$f(x_1,x_2,x_3)=x_1^2-2x_1x_2+8x_1x_3+x_2^2+8x_2x_3-4x_3^2$$
 
 矩阵形式：
 
-$$f(x)=x^TAx,A=\begin{pmatrix}1&-1&4\\\-1&1&4\\\4&4&-4\end{pmatrix},x=\begin{pmatrix}x_1\\\x_2\\\x_3\end{pmatrix}$$
+$$f(x)=x^TAx,A=\begin{pmatrix}1&-1&4\\\ -1&1&4\\\ 4&4&-4\end{pmatrix},x=\begin{pmatrix}x_1\\\ x_2\\\ x_3\end{pmatrix}$$
 
 化为
 
-$$\begin{pmatrix}1&-1&4\\\-1&1&4\\\4&4&-4\\\ & & \\\1&0&0\\\0&1&0\\\0&0&1\end{pmatrix}\Rightarrow\begin{pmatrix}1&0&0\\\0&-4&0\\\0&0&16\\\ & & \\\1&-3&5\\\0&1&-3\\\0&1&-2\end{pmatrix}$$
+$$\begin{pmatrix}1&-1&4\\\ -1&1&4\\\ 4&4&-4\\\  & & \\\ 1&0&0\\\ 0&1&0\\\ 0&0&1\end{pmatrix}\Rightarrow\begin{pmatrix}1&0&0\\\ 0&-4&0\\\ 0&0&16\\\  & & \\\ 1&-3&5\\\ 0&1&-3\\\ 0&1&-2\end{pmatrix}$$
 
-$$\begin{equation}\begin{cases}x_1=y_1-3y_2+5y_3\\\x_2=y_2-3y_3\\\x_3=y_2-2y_3\end{cases}\end{equation}$$
+$$\begin{equation}\begin{cases}x_1=y_1-3y_2+5y_3\\\ x_2=y_2-3y_3\\\ x_3=y_2-2y_3\end{cases}\end{equation}$$
 
 $$g(y_1,y_2,y_3)=y_1^2-4y_2^2+16y_3^2$$
 
